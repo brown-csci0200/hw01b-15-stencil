@@ -1,5 +1,8 @@
 package sol;
 
+/**
+ * Utility Functions for IFuncList
+ */
 public class ListUtils {
 
     // TODO: write Javadoc based on description from assignment handout

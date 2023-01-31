@@ -5,18 +5,24 @@ import java.util.LinkedList;
 import src.FuncList;
 import src.IFuncList;
 
+/**
+ * A class that tests whether your submission meets
+ * the specifications of our autograder.
+ *
+ * See the comment on the main() function for
+ * instructions.
+ */
 public class AutograderCompatibility {
-    /**
-     * A class that tests whether your submission meets
-     * the specifications of our autograder.
-     */
 
     /**
-     * The main method of the autograder compatibility check.
-     *  TODO: Uncomment the body of the main method.
+     * The main method of the autograder compatibility check
+     * @param args Unused argument
+     *
+     *  ****** HOW TO USE *************
+     *  TODO 1: Uncomment the body of the main method.
      *  (in IntelliJ, you can select all commented lines
      *  and press COMMAND+/ or CONTROL+/)
-     *  TODO: Check that code compiles and runs.
+     *  TODO 2: Check that code compiles and runs.
      */
     public static void main(String[] args) {
         //-----------------------------

@@ -3,6 +3,11 @@ package sol;
 import org.junit.Test;
 import src.FuncList;
 
+import static org.junit.Assert.assertTrue;
+
+/**
+ * Tests for Homework 1B
+ */
 public class Homework1BTest {
 
     private FuncList toFuncList(Object... args) {
@@ -11,6 +16,17 @@ public class Homework1BTest {
             funcListBuilder = funcListBuilder.link(args[i]);
         }
         return funcListBuilder;
+    }
+
+    /**
+     * Some examples of how to use toFuncList
+     */
+    @Test
+    public void testToFuncList() {
+        assertTrue(this.toFuncList().equals(new FuncList<>()));
+        assertTrue(this.toFuncList(1).equals(new FuncList<Integer>().link(1)));
+        assertTrue(this.toFuncList("a", "b", "c").equals(
+                new FuncList<>().link("c").link("b").link("a")));
     }
 
     @Test
