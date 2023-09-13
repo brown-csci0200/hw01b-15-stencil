@@ -1,4 +1,7 @@
 package sol;
+// Note:  Normally our test files live in package "test", but for this homework
+// your version will be in package "sol" because of how we are grading your tests.
+
 
 import org.junit.Test;
 import src.FuncList;
